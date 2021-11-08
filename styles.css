@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap'); 
+    body{
+        background-color: #000;
+        font-family: cursive;
+    }
+    .calculadora{
+        width: 300px;
+        height: 450px;
+        background-color: #06cdff6b;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 40px;
+    }
+    .titulo{
+        text-align: center;
+        font-family:'Mochiy Pop P One', sans-serif;
+        font-size: 20px;
+    }
+    .input{
+        position: relative;
+        margin-left: 50px;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        background: #0787a76b;
+        color: rgba(255, 255, 255, 0.89);
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    .categorias{
+        position: relative;
+        margin: 10px;
+        color: #fff;
+        text-align: center;
+    }
+    #resultado{
+        text-align: center;
+    }
+    .destaque{
+        color: rgb(1, 1, 22);
+    }

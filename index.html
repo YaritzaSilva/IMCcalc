@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <main>
+    <div class="calculadora">
+      <div class="titulo"> Calculadora - IMC </div><br>
+      <div class="input">
+        <label for="">Peso(Kg)</label><br>
+        <input type="text" id="peso" placeholder="ex: 70.2"><br><br>
+        <label for="">Altura(m)</label><br>
+        <input type="text" id="altura" placeholder="ex: 1.7"><br>
+        <input type="submit" value="Calcular" class="calcular" onclick="calcular()">
+    </div>
+    <p id="resultado">.</p>
+    <div class="categorias">
+        <div id="muitoabaixo">Muito abaixo do peso</div>
+        <div id="abaixo">Abaixo do peso</div>
+        <div id="normal">Peso normal</div>
+        <div id="acima">Acima do peso</div>
+        <div id="obes1">Obesidade I</div>
+        <div id="obes2">Obesidade II (severa)</div>
+        <div id="obes3">Obesidade III (mórbida)</div>
+    </div>
+  </main>
+</body>
+</html>
